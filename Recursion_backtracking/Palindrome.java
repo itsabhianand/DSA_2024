@@ -7,8 +7,7 @@ public class Palindrome {
             return true;
         if(c[i] != c[n-i-1])
             return false;
-        checkPalindrome(c, i+1, n);
-        return true;
+        return checkPalindrome(c, i+1, n);
     }
 
     public static void main(String args[]){
